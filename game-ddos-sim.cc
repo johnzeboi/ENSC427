@@ -11,9 +11,9 @@ NS_LOG_COMPONENT_DEFINE("GamingDdosSimulation");
 
 int main(int argc, char *argv[])
 {
-    uint32_t numClients = 5;
-    uint32_t numAttackers = 10;
-    double simTime = 60.0;  // adjust for quicker/accurate results
+    uint32_t numClients = 10;
+    uint32_t numAttackers = 0;
+    double simTime = 10.0;  // adjust for quicker/accurate results
 
     CommandLine cmd;
     cmd.AddValue("numAttackers", "Number of DDoS attackers", numAttackers);
